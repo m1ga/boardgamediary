@@ -30,3 +30,10 @@ Developed in JavaScript with [Axway Apccelerator](http://appcelerator.com/).
 * better layout
 * more features besides the diary part
 * much more :smile:
+
+
+**Test apk**
+
+![qr](qrcode.png)
+
+[Download apk](bgk.apk)
