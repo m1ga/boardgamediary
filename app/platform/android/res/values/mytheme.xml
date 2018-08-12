@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="Theme.MyTheme" parent="Theme.AppCompat.NoTitleBar">
+		<item name="colorPrimary">#ff0078</item>
+		<item name="colorPrimaryDark">#000000</item>
+	</style>
+
+	<style name="Theme.Childwindow" parent="Theme.AppCompat">
+		<item name="colorPrimary">#ff0078</item>
+		<item name="colorPrimaryDark">#000000</item>
+	</style>
+
+</resources>

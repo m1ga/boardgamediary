@@ -1,0 +1,87 @@
+"Window" : {
+	theme: "Theme.Childwindow"
+}
+"#actionbar" : {
+	displayHomeAsUp: true
+}
+".title":{
+	color:"#000",
+	left: 5,
+	top: 5,
+}
+".textLeft" : {
+	color: "#fff"
+}
+
+"#view_content" : {
+	scrollType: "vertical",
+	contentWidth: Ti.UI.FILL,
+	contentHeight: Ti.UI.SIZE,
+	layout: "vertical"
+}
+"#lbl_title_big" : {
+	top: -5,
+	font: {
+		fontSize: 30
+	},
+	bottom: 5
+}
+
+"#img_back" : {
+	top: 0,
+	height: 200,
+	width: Ti.UI.FILL,
+	contentMode: Alloy.Globals.CONTENT_MODE_FILL
+}
+"#view_header" : {
+	height: 200,
+	width: Ti.UI.FILL
+}
+
+"#view_text": {
+	bottom: 0,
+	layout:"vertical",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: "rgba(0,0,0,0.25)"
+}
+
+
+"#lbl_players":{
+	left: 10,
+	bottom: 10
+}
+"#lbl_games":{
+	left: 10,
+	bottom: 10
+}
+
+"#lbl_rating": {
+	top: 5,
+	right: 5,
+	font:{
+		fontSize: 20
+	},
+	backgroundColor: "#fff",
+	width: 26,
+	height: 26,
+	borderRadius: 13,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#lbl_text": {
+	right: 5,
+	left:5
+}
+
+"#btn_delete": {
+	top: 20,
+	right: 5,
+	width: 40
+}
+
+"#lbl_date": {
+	font: {
+		fontSize: 12
+	}
+}

@@ -1,0 +1,146 @@
+"Window" : {
+	theme: "Theme.Childwindow"
+}
+"#actionbar" : {
+	displayHomeAsUp: true
+}
+"#view_content" : {
+	top: 0,
+	left: 5,
+	right: 5,
+	bottom: 70,
+	scrollType: "vertical",
+	contentWidth: Ti.UI.FILL,
+	contentHeight: Ti.UI.SIZE
+}
+".title" : {
+	left: 0,
+	top: 20
+}
+"#btn_ok" : {
+	right: 2,
+	bottom: 2,
+	translationZ: 1
+}
+"#btn_cancel" : {
+	left: 2,
+	bottom: 2,
+	translationZ: 1
+}
+"#btn_rating" : {
+	height: 40,
+	width: Ti.UI.FILL
+}
+"#view_rating" : {
+	visible: false,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	translationZ: 10
+}
+"#view_rating_bg" : {
+	backgroundColor: "rgba(0,0,0,0.5)"
+}
+"#btn_rating_ok" : {
+	bottom: 5
+}
+"#view_rating_content" : {
+	backgroundColor: "#fff",
+	height: Ti.UI.SIZE,
+	width: 200,
+	layout: 'vertical'
+}
+".rate_button" : {
+	borderRadius: 5,
+	borderColor: Alloy.CFG.color.accent,
+	height: 30,
+	width: 100,
+	top: 10
+}
+"#lbl_rate_title" : {
+	top: 5,
+	left: 5,
+	bottom: 10
+}
+"#btn_rate_sad" : {
+	bottom: 20
+}
+"#btn_date" : {
+	height: 30,
+	width: Ti.UI.FILL
+}
+"#view_player" : {
+	layout: "horizontal",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+"#lbl_title" : {
+	top: 5
+}
+"#btn_player_add" : {
+	width: 30,
+	height: 30,
+	borderRadius: 15,
+	backgroundColor: Alloy.CFG.color.green,
+	touchFeedback: true,
+	touchFeedbackColor: Alloy.CFG.color.darkgreen
+}
+"#btn_image" : {
+	width: 150,
+	height: 150,
+	bottom: 20,
+	top: 5
+}
+"#img_image" : {
+	width: 150,
+	height: 150,
+	borderRadius: 75,
+	borderColor: Alloy.CFG.color.grey,
+	contentMode: Alloy.Globals.CONTENT_MODE_FILL,
+	borderWidth: 2,
+}
+"#btn_game_add" : {
+	width: 30,
+	height: 30,
+	borderRadius: 15,
+	backgroundColor: Alloy.CFG.color.green,
+	touchFeedback: true,
+	touchFeedbackColor: Alloy.CFG.color.darkgreen
+}
+"#view_games" : {
+	layout: "horizontal",
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+"#lbl_rating" : {
+	font: {
+		fontSize: 35
+	}
+}
+".white" : {
+	color: "#fff"
+}
+"#tf_text" : {
+	height: 100
+}
+"#tf_title" : {
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+".row" : {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	top: 10
+}
+".row_left" : {
+	left: 0,
+	width: "49%",
+	height: Ti.UI.SIZE,
+}
+".row_right" : {
+	right: 0,
+	width: "49%",
+	height: Ti.UI.SIZE,
+}
+
+".rowTitle": {
+	top: undefined
+}

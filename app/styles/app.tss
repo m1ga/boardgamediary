@@ -1,0 +1,89 @@
+"Window" : {
+    theme: "Theme.AppCompat.NoTitleBar",
+    backgroundColor: "#fff"
+}
+
+
+"Label" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+    touchEnabled: false
+}
+
+".title":{
+	font:{
+		fontWeight: "bold"
+	}
+}
+
+".icon":{
+	font:{
+		fontFamily: "FontAwesome"
+	}
+}
+
+".vertical":{
+	layout:"vertical",
+	width:Ti.UI.SIZE,
+	height:Ti.UI.SIZE
+}
+
+"TextField":{
+	borderWidth: 1,
+	borderColor: Alloy.CFG.color.grey,
+	backgroundColor: "transparent",
+	width: Ti.UI.FILL,
+	left: 5,
+	right:5,
+	color: "#000",
+	hintTextColor: Alloy.CFG.color.darkgrey
+}
+"TextArea":{
+	borderWidth: 1,
+	borderColor: Alloy.CFG.color.grey,
+	backgroundColor: "transparent",
+	width: Ti.UI.FILL,
+	left: 5,
+	right:5,
+	color: "#000",
+	hintTextColor: Alloy.CFG.color.darkgrey,
+	font: {
+		fontSize: 14
+	}
+}
+
+"Button":{
+	backgroundColor: Alloy.CFG.color.accent,
+	color: "#fff",
+	width: 150,
+	touchFeedback: true,
+	touchFeedbackColor: Alloy.CFG.color.lightaccent
+}
+
+
+".row_items":{
+	height: 50
+}
+".row_checkbox" : {
+	borderColor: Alloy.CFG.color.darkgrey,
+	borderWidth: 1,
+	width: 20,
+	height: 20,
+	left: 10,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+".row_name" : {
+	left: 50
+}
+".tf_new_item": {
+	left: 0,
+	right: 40,
+	top: 0,
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+".row_trash":{
+	right:0,
+	width: 40,
+	height:Ti.UI.FILL
+}

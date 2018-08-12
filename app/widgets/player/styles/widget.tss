@@ -1,0 +1,16 @@
+"#view_all": {
+	backgroundColor: Alloy.CFG.color.blue,
+	borderRadius: 20,
+	height: Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	right: 5,
+	bottom: 5
+}
+
+"#lbl_name": {
+	color:"#fff",
+	left:10,
+	right:10,
+	top: 5,
+	bottom:5
+}

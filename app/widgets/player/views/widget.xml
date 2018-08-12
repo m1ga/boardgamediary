@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="view_all">
+		<Label text="Name" id="lbl_name"/>
+	</View>
+</Alloy>

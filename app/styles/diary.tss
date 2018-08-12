@@ -1,0 +1,75 @@
+"Window" : {
+	theme: "Theme.Childwindow"
+}
+"#actionbar" : {
+	displayHomeAsUp: true
+}
+".img_day" : {
+	left: 5,
+	height: 70,
+	width: 70,
+	borderRadius: 35,
+	contentMode: Alloy.Globals.CONTENT_MODE_FILL,
+	borderColor: "#fff",
+	borderWidth: 2
+}
+".lbl_title" : {
+	left: 80,
+	top: 5
+}
+".lbl_player_icon" : {
+	left: 80,
+	bottom: 5,
+	color: Alloy.CFG.color.darkgrey
+}
+".lbl_player_count" : {
+	left: 95,
+	bottom: 3,
+	color: Alloy.CFG.color.darkgrey
+}
+".lbl_games" : {
+	left: 80,
+	right: 5,
+	height: 30,
+	ellipsize: Ti.UI.TEXT_ELLIPSIZE_TRUNCATE_END,
+	wordWrap: false
+}
+"ListItem" : {
+	height: 85
+}
+"#btn_add" : {
+	bottom: 10,
+	right: 10,
+	width: 60,
+	height: 60,
+	borderRadius: 30,
+	backgroundColor: Alloy.CFG.color.accent
+}
+"#lbl_plus" : {
+	color: "#fff"
+}
+".lbl_date" : {
+	right: 5,
+	top: 5
+}
+
+".lbl_rating" : {
+	left: 8,
+	top: 5,
+	backgroundColor: "#fff",
+	font: {
+		fontSize: 20
+	},
+	width: 26,
+	height: 26,
+	borderRadius: 13,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	borderColor: Alloy.CFG.color.darkgrey
+}
+".view_line" : {
+	left: 5,
+	right: 5,
+	backgroundColor: Alloy.CFG.color.grey,
+	height: 1,
+	bottom: 0
+}

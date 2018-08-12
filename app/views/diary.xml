@@ -1,0 +1,26 @@
+<Alloy>
+	<Window title="Diary">
+		<ActionBar id="actionbar" platform="android" onHomeIconItemSelected="onClickClose"/>
+		<ListView id="lst_days" defaultItemTemplate="default">
+			<Templates>
+				<ItemTemplate name="default">
+					<ImageView bindId="image" class="img_day" ns="AvImageview"/>
+					<Label bindId="title" class="lbl_title title" text=""/>
+					<Label bindId="date" class="lbl_date title" text=""/>
+					<Label bindId="games" class="lbl_games"/>
+					<Label class="lbl_player_icon icon" text="\uf007"/>
+					<Label bindId="count" class="lbl_player_count" text=""/>
+					<Label bindId="rating" class="lbl_rating icon" text=""/>
+					<View class="view_line"/>
+				</ItemTemplate>
+			</Templates>
+			<ListSection dataCollection="gamenights" dataTransform="dataTransform">
+				<ListItem games:text="{games}" image:image="{image}" rating:text="{rating}" dayId="{id}" title:text="{title}" count:text="{count}" date:text="{date}"/>
+			</ListSection>
+		</ListView>
+
+		<View id="btn_add">
+			<Label class="icon" text="\uf067" id="lbl_plus"/>
+		</View>
+	</Window>
+</Alloy>

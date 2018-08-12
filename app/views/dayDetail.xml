@@ -1,0 +1,28 @@
+<Alloy>
+	<Model src="gamenights" id="gamenights" instance="true"/>
+	<Window>
+		<ActionBar id="actionbar" platform="android" onHomeIconItemSelected="onClickClose"/>
+		<ScrollView id="view_content">
+			<View id="view_header">
+				<ImageView id="img_back" ns="AvImageview"/>
+				<View id="view_text">
+					<Label class="title textLeft" id="lbl_date" text=""/>
+					<Label class="title textLeft" id="lbl_title_big" text="{$.gamenights.title}"/>
+					</View>
+
+				<Label id="lbl_rating" class="icon"/>
+			</View>
+
+			<Label class="title" text="Players"/>
+			<Label class="" id="lbl_players"/>
+
+			<Label class="title" text="Games"/>
+			<Label class="" id="lbl_games"/>
+
+			<Label class="title" text="Text"/>
+			<Label id="lbl_text" text="{$.gamenights.text}"/>
+
+			<Button id="btn_delete" class="icon" title="\uf014"/>
+		</ScrollView>
+	</Window>
+</Alloy>

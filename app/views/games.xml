@@ -1,0 +1,24 @@
+<Alloy>
+	<Window title="Games">
+		<ActionBar id="actionbar" platform="android" onHomeIconItemSelected="onClickClose"/>
+
+		<TextField id="tf_name" class="tf_new_item" hintText="New game..."/>
+		<Button id="btn_add" title="+"/>
+		<ListView id="lst_player" defaultItemTemplate="default">
+			<Templates>
+				<ItemTemplate name="default">
+					<Label class="row_name" bindId="name"/>
+					<Label class="row_checkbox icon" bindId="checkbox"/>
+					<View class="row_trash" bindId="trash">
+						<Label class="icon" text="\uf014" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection dataCollection="games">
+				<ListItem gameId="{id}" class="row_items" name:text="{name}" checkbox:text="{checkbox}" active="{active}"/>
+			</ListSection>
+		</ListView>
+
+		<Button id="btn_ok" title="Ok"/>
+	</Window>
+</Alloy>

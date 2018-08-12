@@ -1,0 +1,37 @@
+".box" : {
+	width: "50%",
+	height: "50%",
+	borderWidth: 1,
+	borderColor: Alloy.CFG.color.grey,
+	backgroundColor: "#fff"
+}
+
+"#videoPlayer" : {
+	mediaControlStyle: Ti.Media.VIDEO_CONTROL_NONE,
+	scalingMode: Ti.Media.VIDEO_SCALING_RESIZE_ASPECT,
+	top: 0,
+	backgroundColor: "#fff",
+	width: Ti.UI.FILL,
+	autoplay: true,
+	url: "/loop.mp4",
+	height: Ti.UI.SIZE,
+	repeatMode: Ti.Media.VIDEO_REPEAT_MODE_ONE
+}
+"#lbl_book_icon" : {
+	bottom: 20,
+	font: {
+		fontSize: 40
+	}
+}
+"#view_bottom" : {
+	bottom: 0,
+	height: 20,
+	width: Ti.UI.FILL,
+	backgroundColor: Alloy.CFG.color.accent
+}
+"#img_name" : {
+	top: 80,
+	image: "/images/name.png",
+	width: 200,
+	height: Ti.UI.SIZE
+}

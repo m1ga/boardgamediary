@@ -1,0 +1,66 @@
+<Alloy>
+	<Window title="Create a new entry">
+		<ActionBar id="actionbar" platform="android" onHomeIconItemSelected="onClickClose"/>
+
+		<ScrollView class="vertical" id="view_content">
+			<View id="btn_image">
+				<ImageView ns="AvImageview" id="img_image"/>
+				<Label id="lbl_photo_icon" text="\uf030" class="icon"/>
+			</View>
+
+			<Label class="title" text="Game night title" id="lbl_title"/>
+			<TextField id="tf_title" hintText="Title"/>
+
+			<View class="row">
+				<View class="row_left">
+					<Label class="title rowTitle" text="Date"/>
+					<View id="btn_date">
+						<Label id="lbl_date" text=""/>
+					</View>
+				</View>
+				<View class="row_right">
+					<Label class="title rowTitle" text="Rating"/>
+					<View id="btn_rating">
+						<Label class="icon" id="lbl_rating" text="\uf118"/>
+					</View>
+				</View>
+			</View>
+
+			<Label class="title" text="Players"/>
+			<View id="view_player"/>
+			<View id="btn_player_add">
+				<Label class="icon white" text="\uf067"/>
+			</View>
+
+			<Label class="title" text="Games"/>
+			<View id="view_games"/>
+			<View id="btn_game_add">
+				<Label class="icon white" text="\uf067"/>
+			</View>
+
+			<Label class="title" text="Text"/>
+			<TextArea id="tf_text"/>
+		</ScrollView>
+
+		<Button id="btn_ok" title="save"/>
+		<Button id="btn_cancel" title="cancel"/>
+
+		<View id="view_rating">
+			<View id="view_rating_bg"/>
+
+			<View id="view_rating_content">
+				<Label text="How did you like the gamenight?" id="lbl_rate_title"/>
+				<View id="btn_rate_happy" class="rate_button">
+					<Label id="lbl_happy" class="icon" text="\uf118"/>
+				</View>
+				<View id="btn_rate_ok" class="rate_button">
+					<Label id="lbl_ok" class="icon" text="\uf11a"/>
+				</View>
+				<View id="btn_rate_sad" class="rate_button">
+					<Label id="lbl_sad" class="icon" text="\uf119"/>
+				</View>
+				<Button id="btn_rating_ok" title="ok"/>
+			</View>
+		</View>
+	</Window>
+</Alloy>
